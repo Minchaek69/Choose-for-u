@@ -1,0 +1,518 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "오늘 뭐 먹지?",
+      "subtitle": "점심·저녁 메뉴, 3분 컷",
+      "image": "",
+      "tags": [
+        "음식",
+        "옵션 4개"
+      ],
+      "emoji": "🍜",
+      "mode": "친구 투표"
+    },
+    {
+      "id": 2,
+      "title": "살까 말까?",
+      "subtitle": "장바구니 속 지름신 멈추기",
+      "image": "",
+      "tags": [
+        "쇼핑",
+        "옵션 4개"
+      ],
+      "emoji": "🛍️",
+      "mode": "가짜 랜덤"
+    },
+    {
+      "id": 3,
+      "title": "주말 뭐 하지?",
+      "subtitle": "에너지 대비 만족도 최대로",
+      "image": "",
+      "tags": [
+        "활동",
+        "옵션 5개"
+      ],
+      "emoji": "🎡",
+      "mode": "거부권"
+    },
+    {
+      "id": 4,
+      "title": "무슨 영화 보지?",
+      "subtitle": "오늘 밤 기분에 맞춰",
+      "image": "",
+      "tags": [
+        "영화",
+        "옵션 4개"
+      ],
+      "emoji": "🎬",
+      "mode": "토너먼트"
+    },
+    {
+      "id": 5,
+      "title": "오늘 뭐 입지?",
+      "subtitle": "외출 10분 전 비상",
+      "image": "",
+      "tags": [
+        "패션",
+        "옵션 4개"
+      ],
+      "emoji": "👕",
+      "mode": "듀얼"
+    },
+    {
+      "id": 6,
+      "title": "어디 놀러 가지?",
+      "subtitle": "당일치기 여행지",
+      "image": "",
+      "tags": [
+        "여행",
+        "옵션 4개"
+      ],
+      "emoji": "✈️",
+      "mode": "토너먼트"
+    },
+    {
+      "id": 7,
+      "title": "뭐 마시지?",
+      "subtitle": "카페 앞에서 30초",
+      "image": "",
+      "tags": [
+        "음료",
+        "옵션 3개"
+      ],
+      "emoji": "🧋",
+      "mode": "가짜 랜덤"
+    },
+    {
+      "id": 8,
+      "title": "운동 뭐 하지?",
+      "subtitle": "옵션 준비 중 — 빈 상태 예시",
+      "image": "",
+      "tags": [
+        "운동",
+        "옵션 0개"
+      ],
+      "emoji": "🏃",
+      "mode": "듀얼"
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "itemId": 1,
+      "text": "마라탕",
+      "desc": "얼얼하게 땀 빼기",
+      "emoji": "🍜",
+      "pick": true,
+      "reason": "쌀쌀한 날엔 얼얼한 국물이 국룰",
+      "votes": [
+        "🐱 민호",
+        "🐰 서연",
+        "🦊 준"
+      ],
+      "crowd": 41
+    },
+    {
+      "id": 2,
+      "itemId": 1,
+      "text": "초밥",
+      "desc": "깔끔하게 한 접시",
+      "emoji": "🍣",
+      "pick": false,
+      "reason": "오늘은 가볍고 깔끔하게",
+      "votes": [
+        "🐼 하린"
+      ],
+      "crowd": 23
+    },
+    {
+      "id": 3,
+      "itemId": 1,
+      "text": "치킨",
+      "desc": "실패 없는 바삭함",
+      "emoji": "🍗",
+      "pick": false,
+      "reason": "치킨은 언제나 옳으니까",
+      "votes": [
+        "🐻 지수"
+      ],
+      "crowd": 21
+    },
+    {
+      "id": 4,
+      "itemId": 1,
+      "text": "피자",
+      "desc": "치즈 폭탄 한 판",
+      "emoji": "🍕",
+      "pick": false,
+      "reason": "나눠 먹기엔 피자가 최고",
+      "votes": [],
+      "crowd": 15
+    },
+    {
+      "id": 5,
+      "itemId": 2,
+      "text": "트렌치코트",
+      "desc": "3주째 장바구니",
+      "emoji": "🧥",
+      "pick": true,
+      "reason": "3주째 생각난다면 이미 답이 나온 거야",
+      "votes": [
+        "🐰 서연",
+        "🦊 준",
+        "🐼 하린"
+      ],
+      "crowd": 41
+    },
+    {
+      "id": 6,
+      "itemId": 2,
+      "text": "무선 이어폰",
+      "desc": "지금 것도 멀쩡함",
+      "emoji": "🎧",
+      "pick": false,
+      "reason": "멀쩡한 건 한 달 더 써 보자",
+      "votes": [
+        "🐻 지수"
+      ],
+      "crowd": 23
+    },
+    {
+      "id": 7,
+      "itemId": 2,
+      "text": "러닝화",
+      "desc": "운동 결심용",
+      "emoji": "👟",
+      "pick": false,
+      "reason": "운동을 먼저 시작하면 사 줄게",
+      "votes": [
+        "🐱 민호"
+      ],
+      "crowd": 21
+    },
+    {
+      "id": 8,
+      "itemId": 2,
+      "text": "반려식물",
+      "desc": "방에 초록 한 점",
+      "emoji": "🪴",
+      "pick": false,
+      "reason": "작고 싸고, 방 분위기가 바뀌어",
+      "votes": [],
+      "crowd": 15
+    },
+    {
+      "id": 9,
+      "itemId": 3,
+      "text": "한강 피크닉",
+      "desc": "돗자리 + 치킨",
+      "emoji": "🧺",
+      "pick": true,
+      "reason": "날씨 좋은 주말은 한강이 정답",
+      "votes": [
+        "🦊 준",
+        "🐼 하린",
+        "🐻 지수"
+      ],
+      "crowd": 38
+    },
+    {
+      "id": 10,
+      "itemId": 3,
+      "text": "볼링",
+      "desc": "친구랑 내기 한 판",
+      "emoji": "🎳",
+      "pick": false,
+      "reason": "몸도 풀고 수다도 떨고",
+      "votes": [
+        "🐱 민호"
+      ],
+      "crowd": 24
+    },
+    {
+      "id": 11,
+      "itemId": 3,
+      "text": "집콕 정주행",
+      "desc": "이불 밖은 위험해",
+      "emoji": "🛋️",
+      "pick": false,
+      "reason": "충전도 엄연한 일정이야",
+      "votes": [
+        "🐰 서연"
+      ],
+      "crowd": 20
+    },
+    {
+      "id": 12,
+      "itemId": 3,
+      "text": "전시회",
+      "desc": "감성 충전",
+      "emoji": "🖼️",
+      "pick": false,
+      "reason": "사진 남기기 딱 좋은 코스",
+      "votes": [],
+      "crowd": 11
+    },
+    {
+      "id": 13,
+      "itemId": 3,
+      "text": "카페 투어",
+      "desc": "새로 생긴 곳 도장 깨기",
+      "emoji": "☕",
+      "pick": false,
+      "reason": "앉아서 쉬면서 기분 전환",
+      "votes": [
+        "🐼 하린"
+      ],
+      "crowd": 7
+    },
+    {
+      "id": 14,
+      "itemId": 4,
+      "text": "코미디",
+      "desc": "웃음 보장",
+      "emoji": "😂",
+      "pick": true,
+      "reason": "오늘 하루 수고한 나에게 웃음을",
+      "votes": [
+        "🐼 하린",
+        "🐻 지수",
+        "🐱 민호"
+      ],
+      "crowd": 41
+    },
+    {
+      "id": 15,
+      "itemId": 4,
+      "text": "히어로 액션",
+      "desc": "팝콘 각",
+      "emoji": "🦸",
+      "pick": false,
+      "reason": "생각 없이 즐기기엔 액션",
+      "votes": [
+        "🐰 서연"
+      ],
+      "crowd": 23
+    },
+    {
+      "id": 16,
+      "itemId": 4,
+      "text": "공포",
+      "desc": "불 끄고 보기",
+      "emoji": "👻",
+      "pick": false,
+      "reason": "스릴이 필요한 밤이라면",
+      "votes": [
+        "🦊 준"
+      ],
+      "crowd": 21
+    },
+    {
+      "id": 17,
+      "itemId": 4,
+      "text": "로맨스",
+      "desc": "설렘 충전",
+      "emoji": "💕",
+      "pick": false,
+      "reason": "설렘은 언제 봐도 남는 장사",
+      "votes": [],
+      "crowd": 15
+    },
+    {
+      "id": 18,
+      "itemId": 5,
+      "text": "니트 + 슬랙스",
+      "desc": "단정하게",
+      "emoji": "🧶",
+      "pick": true,
+      "reason": "어디 가도 무난하게 예쁜 조합",
+      "votes": [
+        "🐻 지수",
+        "🐱 민호",
+        "🐰 서연"
+      ],
+      "crowd": 41
+    },
+    {
+      "id": 19,
+      "itemId": 5,
+      "text": "청청 코디",
+      "desc": "꾸안꾸",
+      "emoji": "👖",
+      "pick": false,
+      "reason": "편한데 힙해 보이는 마법",
+      "votes": [
+        "🦊 준"
+      ],
+      "crowd": 23
+    },
+    {
+      "id": 20,
+      "itemId": 5,
+      "text": "트렌치코트",
+      "desc": "가을 정석",
+      "emoji": "🧥",
+      "pick": false,
+      "reason": "지금 아니면 못 입는 계절템",
+      "votes": [
+        "🐼 하린"
+      ],
+      "crowd": 21
+    },
+    {
+      "id": 21,
+      "itemId": 5,
+      "text": "셔츠 레이어드",
+      "desc": "발표 있는 날",
+      "emoji": "👔",
+      "pick": false,
+      "reason": "발표 날엔 셔츠가 든든해",
+      "votes": [],
+      "crowd": 15
+    },
+    {
+      "id": 22,
+      "itemId": 6,
+      "text": "강릉",
+      "desc": "바다 + 커피",
+      "emoji": "🌊",
+      "pick": true,
+      "reason": "바다 보며 커피 한 잔이면 리셋 완료",
+      "votes": [
+        "🐱 민호",
+        "🐰 서연",
+        "🦊 준"
+      ],
+      "crowd": 41
+    },
+    {
+      "id": 23,
+      "itemId": 6,
+      "text": "경주",
+      "desc": "역사 산책",
+      "emoji": "🏯",
+      "pick": false,
+      "reason": "걷기만 해도 사진이 작품",
+      "votes": [
+        "🐼 하린"
+      ],
+      "crowd": 23
+    },
+    {
+      "id": 24,
+      "itemId": 6,
+      "text": "전주",
+      "desc": "한옥마을 먹방",
+      "emoji": "🌸",
+      "pick": false,
+      "reason": "먹으러 가는 여행도 여행",
+      "votes": [
+        "🐻 지수"
+      ],
+      "crowd": 21
+    },
+    {
+      "id": 25,
+      "itemId": 6,
+      "text": "춘천",
+      "desc": "기차 타고 닭갈비",
+      "emoji": "🚂",
+      "pick": false,
+      "reason": "기차 타는 순간부터 여행 시작",
+      "votes": [],
+      "crowd": 15
+    },
+    {
+      "id": 26,
+      "itemId": 7,
+      "text": "흑당 버블티",
+      "desc": "당 충전",
+      "emoji": "🧋",
+      "pick": true,
+      "reason": "오늘 같은 날은 당이 필요해",
+      "votes": [
+        "🐰 서연",
+        "🦊 준",
+        "🐼 하린"
+      ],
+      "crowd": 48
+    },
+    {
+      "id": 27,
+      "itemId": 7,
+      "text": "아이스 아메리카노",
+      "desc": "얼죽아",
+      "emoji": "☕",
+      "pick": false,
+      "reason": "고민될 땐 아아가 기본값",
+      "votes": [
+        "🐻 지수"
+      ],
+      "crowd": 30
+    },
+    {
+      "id": 28,
+      "itemId": 7,
+      "text": "말차 라떼",
+      "desc": "쌉싸름하게",
+      "emoji": "🍵",
+      "pick": false,
+      "reason": "쌉싸름한 게 당기는 날",
+      "votes": [
+        "🐱 민호"
+      ],
+      "crowd": 22
+    }
+  ],
+  "history": [
+    {
+      "id": 1,
+      "emoji": "🍜",
+      "text": "마라탕",
+      "situation": "오늘 뭐 먹지?",
+      "date": "10/28 (화) 점심",
+      "place": "신촌 마라 골목",
+      "mood": "😍",
+      "checkin": "인증 완료",
+      "photo": "https://picsum.photos/seed/golla-mala/300/300",
+      "color": "#FF5A36"
+    },
+    {
+      "id": 2,
+      "emoji": "🧺",
+      "text": "한강 피크닉",
+      "situation": "주말 뭐 하지?",
+      "date": "10/26 (일) 오후",
+      "place": "망원 한강공원",
+      "mood": "😍",
+      "checkin": "인증 완료",
+      "photo": "https://picsum.photos/seed/golla-hangang/300/300",
+      "color": "#3B82F6"
+    },
+    {
+      "id": 3,
+      "emoji": "😂",
+      "text": "코미디",
+      "situation": "무슨 영화 보지?",
+      "date": "10/24 (금) 밤",
+      "place": "집",
+      "mood": "😐",
+      "checkin": "인증 완료",
+      "photo": "https://picsum.photos/seed/golla-movie/300/300",
+      "color": "#8B5CF6"
+    },
+    {
+      "id": 4,
+      "emoji": "🧥",
+      "text": "트렌치코트",
+      "situation": "살까 말까?",
+      "date": "10/21 (화)",
+      "place": "온라인",
+      "mood": "😍",
+      "checkin": "인증 완료",
+      "photo": "https://picsum.photos/seed/golla-coat/300/300",
+      "color": "#1C1C1E"
+    }
+  ]
+}
